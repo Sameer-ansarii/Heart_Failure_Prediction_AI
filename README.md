@@ -19,46 +19,46 @@ The primary objective of this project is to harness the power of data science an
 
 # Data Set Information
 
-**age**: Age of the patient
+* **age**:  Age of the patient
 ​
 ​
-**anaemia**: Haemoglobin level of patient (Boolean)
+* **anaemia**: Haemoglobin level of patient (Boolean)
 ​
 ​
-**eatinine_phosphokinase**Level of the CPK enzyme in the blood (mcg/L)
+* **eatinine_phosphokinase**Level of the CPK enzyme in the blood (mcg/L)
 ​
 ​
-**diabetes**: If the patient has diabetes (Boolean)
+* **diabetes**: If the patient has diabetes (Boolean)
 ​
 ​
-**ejection_fraction**: Percentage of blood leaving the heart at each contraction
+* **ejection_fraction**: Percentage of blood leaving the heart at each contraction
 ​
 ​
-**high_blood_pressure**: If the patient has hypertension (Boolean)
+* **high_blood_pressure**: If the patient has hypertension (Boolean)
 ​
 ​
-**platelets**: Platelet count of blood (kiloplatelets/mL)
+* **platelets**: Platelet count of blood (kiloplatelets/mL)
 ​
 ​
-**serum_creatinine**: Level of serum creatinine in the blood (mg/dL)
+* **serum_creatinine**: Level of serum creatinine in the blood (mg/dL)
 ​
 ​
-**serum_sodium**: Level of serum sodium in the blood (mEq/L)
+* **serum_sodium**: Level of serum sodium in the blood (mEq/L)
 ​
 ​
-**sex**: Sex of the patient
+* **sex**: Sex of the patient
 ​
 ​
-**smoking**: If the patient smokes or not (Boolean)
+* **smoking**: If the patient smokes or not (Boolean)
 ​
 ​
-**time**: Indicates the number of days after a patient is admitted that he or she will die.
+* **time**: Indicates the number of days after a patient is admitted that he or she will die.
 ​
 ​
-**DEATH_EVENT**: If the patient deceased during the follow-up period (Boolean)
+* **DEATH_EVENT**: If the patient deceased during the follow-up period (Boolean)
 ​
 ​
-**[Attributes having Boolean values: 0 = Negative (No); 1 = Positive (Yes)]**
+* **[Attributes having Boolean values: 0 = Negative (No); 1 = Positive (Yes)]**
 
 # Project Report: Heart Failure Prediction
 
