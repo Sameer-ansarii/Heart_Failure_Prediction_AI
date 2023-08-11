@@ -112,9 +112,11 @@ A variety of classification algorithms were evaluated, including Logistic Regres
 Hyperparameter tuning was performed on the SVC model to optimize its performance. GridSearchCV was used to find the best combination of hyperparameters.
 
 **8. Model Selection and Validation**
+
 The Support Vector Classifier (SVC) was selected as the final model due to its robust performance and ability to handle imbalanced datasets. The model's performance was validated on both training and test sets.
 
 **9. Performance Analysis**
+
 The model's performance was thoroughly analyzed, including metrics such as accuracy, balanced accuracy, precision, recall, F1-score, and ROC-AUC curves. Cross-validation results provided insight into the model's consistency.
 
 **10. Feature Insights**
