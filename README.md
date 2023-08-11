@@ -92,18 +92,23 @@ The dataset has been thoroughly explored and analyzed:
 * Assessment of multicollinearity
 
 **3. Feature Selection**
+
 Correlation analysis and feature importance techniques helped identify key features for model building. The optimal subset of features was selected to retain essential predictive power while avoiding overfitting.
 
 **4. Data Splitting and Scaling**
+
 The data was split into training and testing sets (80:20) to enable model evaluation. MinMax scaling was applied to ensure features were on the same scale, promoting convergence during model training.
 
 **5. Handling Class Imbalance**
+
 Due to class imbalance, the minority class was oversampled using the Synthetic Minority Over-sampling Technique (SMOTE) to enhance model performance.
 
 **6. Model Building and Evaluation**
+
 A variety of classification algorithms were evaluated, including Logistic Regression, Decision Tree, K-Nearest Neighbors, Gaussian Naive Bayes, AdaBoost, Gradient Boosting, Random Forest, XGBoost, and Support Vector Classifier (SVC). Model performance was assessed using metrics such as accuracy, precision, recall, F1-score, and balanced accuracy.
 
 **7. Hyperparameter Tuning**
+
 Hyperparameter tuning was performed on the SVC model to optimize its performance. GridSearchCV was used to find the best combination of hyperparameters.
 
 **8. Model Selection and Validation**
@@ -113,12 +118,15 @@ The Support Vector Classifier (SVC) was selected as the final model due to its r
 The model's performance was thoroughly analyzed, including metrics such as accuracy, balanced accuracy, precision, recall, F1-score, and ROC-AUC curves. Cross-validation results provided insight into the model's consistency.
 
 **10. Feature Insights**
+
 The importance of individual features in the model was analyzed, highlighting the most significant variables that contribute to accurate predictions.
 
 **11. Conclusion**
+
 The project successfully developed a predictive model for heart failure detection. The chosen SVC model demonstrated robust performance, effectively balancing accuracy and recall. Insights gained from feature analysis further reinforced the importance of certain variables in predicting heart failure.
 
 **12. Project Documentation and Deployment**
+
 The final trained model was saved as a pickle file for easy access and deployment. Recommendations were provided for deploying the model in a real-world healthcare setting.
 
 In conclusion, the Heart Failure Prediction project leverages data science and machine learning techniques to build a predictive model that enhances early detection and intervention for heart failure patients. The project demonstrates the power of data-driven decision-making in healthcare, showcasing the potential to save lives and improve patient outcomes.
